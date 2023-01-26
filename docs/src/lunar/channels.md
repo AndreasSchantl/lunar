@@ -36,6 +36,6 @@ $product->scheduleChannel($channel, now()->addDays(14), now()->addDays(24));
 // Schedule the product to be enabled straight away
 $product->scheduleChannel($channel);
 
-// The schedule method will accept and array or collection of channels.
+// The schedule method will accept an array or collection of channels.
 $product->scheduleChannel(Channel::get());
 ```
